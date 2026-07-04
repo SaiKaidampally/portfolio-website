@@ -37,24 +37,7 @@ const Projects = () => {
         </svg>
       ),
       githubLink: 'https://github.com/SaiKaidampally',
-      demoLink: '#'
-    },
-    {
-      title: 'Tic-Tac-Toe Game',
-      category: 'web',
-      categoryLabel: 'Web Game',
-      description: 'A classic browser-based Tic-Tac-Toe game featuring instant win/draw detection, custom sound effects, and a mobile-first responsive layout.',
-      technologies: ['HTML5', 'CSS3', 'JavaScript'],
-      icon: (
-        <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
-          <line x1="9" y1="3" x2="9" y2="21"></line>
-          <line x1="15" y1="3" x2="15" y2="21"></line>
-          <line x1="3" y1="9" x2="21" y2="9"></line>
-          <line x1="3" y1="15" x2="21" y2="15"></line>
-        </svg>
-      ),
-      githubLink: 'https://github.com/SaiKaidampally',
-      demoLink: '#'
+      demoLink: 'https://notes-app-alpha-ruby.vercel.app/'
     },
     {
       title: 'Rock-Paper-Scissors',
@@ -70,7 +53,7 @@ const Projects = () => {
         </svg>
       ),
       githubLink: 'https://github.com/SaiKaidampally',
-      demoLink: '#'
+      demoLink: 'https://rock-paper-scissor-game-html-css-js.vercel.app/'
     },
     {
       title: 'Coffee Store Sales Dashboard',

@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
-  const [theme, setTheme] = useState('light');
+  const [theme, setTheme] = useState('dark');
   const [activeSection, setActiveSection] = useState('home');
 
   const navItems = [
@@ -18,7 +18,7 @@ const Navbar = () => {
 
   // Theme loader on mount
   useEffect(() => {
-    const savedTheme = localStorage.getItem('theme') || 'light';
+    const savedTheme = localStorage.getItem('theme') || 'dark';
     setTheme(savedTheme);
     document.documentElement.setAttribute('data-theme', savedTheme);
   }, []);
